@@ -4,6 +4,10 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
+        task6();
+        task7();
+        task8();
     }
 
     public static void task1 () {
@@ -53,5 +57,43 @@ public class Main {
             System.out.println("Если возраст человека равен " + age + "то ему нужно ходить на работу");
         }
     }
+    public static void task5 () {
+        System.out.println("Задача 5");
+       int age = 12;
+        if (age < 5) {
+              System.out.println("Если возраст ребенка равен " + age + "то он не может кататься на аттракционе");
+       }
+            if (age >= 5 && age < 14) {
+                System.out.println("Если возраст ребенка равен " + age + "то он может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя");
+            }
+            if (age > 14) {
+                System.out.println("Если возраст ребенка равен " + age + "то он может кататься без сопровождения взрослого");
+            }
+    }
+
+
+
+    public static void task6 () {
+        System.out.println("Задача 6");
+        int trainPass = 102;
+        int trainPassSeat = 60;
+        int trainPassStand = trainPass-trainPassSeat;
+        int passNumber = 60;
+        if (passNumber <= 60) {System.out.println("Если место номер" + passNumber + "то, место сидячее." );
+        }
+        if (passNumber > 60 && <= 102) {
+            System.out.println("Если место номер" + passNumber + "то, место стоячее.");
+        }
+        else {
+            System.out.println("Вагон полностью забит.");
+        }
+    }
+
+    public static void task7 () {
+        System.out.println("Задача 7");
+    }
+        public static void task8 () {
+            System.out.println("Задача 8");
+        }
 
 }
