@@ -25,7 +25,8 @@ public class Main {
         } else  {
             System.out.println ("На улице " + degrees + " градусов, нужно надеть шапку.");
         }
-
-
     }
+    public static void task3 () {
+        System.out.println("Задача 3");
+
 }
