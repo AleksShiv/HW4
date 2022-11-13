@@ -78,16 +78,18 @@ public class Main {
         int trainPass = 102;
         int trainPassSeat = 60;
         int trainPassStand = trainPass-trainPassSeat;
-        int passNumber = 60;
-        if (passNumber <= 60) {System.out.println("Если место номер" + passNumber + "то, место сидячее." );
+        int passNumber = 104;
+         if (passNumber <= 60) {
+             System.out.println("Если место номер " + passNumber + " то, место сидячее" );
         }
-        if (passNumber > 60 && <= 102) {
+         else if (passNumber > 60 && passNumber <= 102) {
             System.out.println("Если место номер" + passNumber + "то, место стоячее.");
         }
-        else {
-            System.out.println("Вагон полностью забит.");
-        }
+         else {
+             System.out.println("Вагон полностью забит.");
+         }
     }
+
 
     public static void task7 () {
         System.out.println("Задача 7");
