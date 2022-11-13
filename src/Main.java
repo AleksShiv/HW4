@@ -7,7 +7,6 @@ public class Main {
         task5();
         task6();
         task7();
-        task8();
     }
 
     public static void task1 () {
@@ -93,9 +92,20 @@ public class Main {
 
     public static void task7 () {
         System.out.println("Задача 7");
-    }
-        public static void task8 () {
-            System.out.println("Задача 8");
+        int one = 23;
+        int two = 80;
+        int three =80;
+        if (one >= two && one >= three) {
+            System.out.println("Число " + one + " большее из всех");
         }
-
+            else if (two >= one && two >= three) {
+            System.out.println("Число " +  two + " большее из всех");
+        }
+            else if ( three >= one && three >= two) {
+            System.out.println("Число " + three + " большее из всех");
+        }
+            else {
+            System.out.println("Все числа равны");
+        }
+    }
 }
